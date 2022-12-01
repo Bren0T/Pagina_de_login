@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Mulish&display=swap');
+
+body {
+    background-image: linear-gradient(90deg, purple, rgb(1, 1, 153));
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.caixalogin {
+    position: absolute;
+    padding: 50px;
+    background-color: blueviolet;
+    width: 15%;
+    height: 40%;
+    border-radius: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.user {
+    position: absolute;
+    right: 15%;
+    width: 68%;
+    height: 10%;
+    outline: none;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+
+
+}
+
+.senha {
+    position: absolute;
+    right: 15%;
+    width: 68%;
+    height: 10%;
+    outline: none;
+    color: black;
+}
+
+.titulo {
+    position: relative;
+    right: 5%;
+    color: #fff;
+
+}
+
+.botao {
+    position: absolute;
+    right: 15%;
+    width: 70%;
+    height: 10%;
+    background: rgb(64, 64, 253);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+
+
+}
+
+.caixalogin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover {
+    background-color: rgb(33, 33, 253);
+}
